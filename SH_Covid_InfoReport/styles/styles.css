@@ -1,0 +1,116 @@
+html{
+  background-color: #eeeeee;
+}
+
+body{
+  width:auto;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+div{
+  background-color:white;
+  border-radius: 35px;
+  margin: 0 0 8% 0;
+  padding: 2%;
+}
+
+.titleblock {
+  background:linear-gradient(70deg, #0f4ac8, #180777);
+  border-radius: 35px;
+  margin: 4% 0 8% 0;
+  padding: 2%;
+}
+
+
+h1{
+  margin: 0 0 0 5%;
+  padding: 5% 0 0 0;
+  text-align: left;
+  font-size:50pt;
+  color: white;
+}
+
+h2{
+  margin: 0 0 0 5%;
+  padding: 0 0 5% 0;
+  text-align: left;
+  font-size:32pt;
+  color: white;
+}
+
+
+.summarytable {
+  border-collapse:separate;
+  border-spacing: 20px;
+  margin: auto;
+  table-layout: fixed;
+  width: 100%;
+  font-size: 26pt;
+  font-weight: bold;
+}
+
+.summarytable th{
+  color: white;
+  padding: 20px;
+  border-radius: 25px;
+  background: #073392;
+  width: auto;
+  height: 60px;
+}
+
+.summarytable td{
+  color: #073392;
+  padding: 20px;
+  border-radius: 25px;
+  background: #eeeeee;
+  width: auto;
+  height: 60px;
+}
+
+.summarytable tbody{
+  text-align: left;
+}
+
+.specifictable {
+  border-collapse:collapse;
+  margin: auto;
+  table-layout:auto;
+  width: 100%;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.specifictable th{
+  color: white;
+  background: #073392;
+  width: auto;
+  height: 60px;
+}
+
+.specifictable td{
+  color: #073392;
+  width: auto;
+  height: 60px;
+}
+
+.specifictable tbody{
+  text-align: center;
+}
+
+.specifictable tfoot{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.specifictable tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+.info{
+  font-size: 16pt;
+  font-weight: bold;
+  text-align:left;
+  line-height:12px;
+}
